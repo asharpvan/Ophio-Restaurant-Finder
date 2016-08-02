@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A42E381AF3DB0A001B227E /* PSCorneredButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A42E371AF3DB0A001B227E /* PSCorneredButton.m */; };
+		02AF97731AF33C7E00380E83 /* AllRestaurantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF97721AF33C7E00380E83 /* AllRestaurantsViewController.m */; };
+		02AF97761AF33F4C00380E83 /* AssistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF97751AF33F4C00380E83 /* AssistViewController.m */; };
+		02AF97791AF35D6500380E83 /* SqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF97781AF35D6500380E83 /* SqliteManager.m */; };
+		02AF977B1AF35DC700380E83 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AF977A1AF35DC700380E83 /* libsqlite3.0.dylib */; };
+		02AF97801AF379CF00380E83 /* Ophio1.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 02AF977F1AF379CF00380E83 /* Ophio1.sqlite */; };
+		02AF97831AF3968600380E83 /* AddReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AF97821AF3968600380E83 /* AddReviewViewController.m */; };
+		02FD08DA1AF2082300D534A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FD08D91AF2082300D534A2 /* main.m */; };
+		02FD08DD1AF2082300D534A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FD08DC1AF2082300D534A2 /* AppDelegate.m */; };
+		02FD08E01AF2082300D534A2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FD08DF1AF2082300D534A2 /* FirstViewController.m */; };
+		02FD08E51AF2082300D534A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02FD08E41AF2082300D534A2 /* Images.xcassets */; };
+		02FD08F41AF2082300D534A2 /* Ophio_Restaurant_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FD08F31AF2082300D534A2 /* Ophio_Restaurant_FinderTests.m */; };
+		02FD08FF1AF20B5400D534A2 /* CurrentLocationFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FD08FE1AF20B5400D534A2 /* CurrentLocationFinder.m */; };
+		02FD09021AF2135C00D534A2 /* RestaurantFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FD09011AF2135C00D534A2 /* RestaurantFinder.m */; };
+		02FD09051AF2164A00D534A2 /* RestaurantDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FD09041AF2164A00D534A2 /* RestaurantDetailsModel.m */; };
+		02FD09081AF220F400D534A2 /* PSBlinkingMultiColoredLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FD09071AF220F400D534A2 /* PSBlinkingMultiColoredLabel.m */; };
+		02FD090B1AF23B6F00D534A2 /* RestaurantDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FD090A1AF23B6F00D534A2 /* RestaurantDetailsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02FD08EE1AF2082300D534A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02FD08CC1AF2082300D534A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02FD08D31AF2082300D534A2;
+			remoteInfo = "Ophio Restaurant Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A42E361AF3DB0A001B227E /* PSCorneredButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCorneredButton.h; sourceTree = "<group>"; };
+		02A42E371AF3DB0A001B227E /* PSCorneredButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSCorneredButton.m; sourceTree = "<group>"; };
+		02AF97711AF33C7E00380E83 /* AllRestaurantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllRestaurantsViewController.h; sourceTree = "<group>"; };
+		02AF97721AF33C7E00380E83 /* AllRestaurantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllRestaurantsViewController.m; sourceTree = "<group>"; };
+		02AF97741AF33F4C00380E83 /* AssistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssistViewController.h; sourceTree = "<group>"; };
+		02AF97751AF33F4C00380E83 /* AssistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssistViewController.m; sourceTree = "<group>"; };
+		02AF97771AF35D6400380E83 /* SqliteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteManager.h; sourceTree = "<group>"; };
+		02AF97781AF35D6500380E83 /* SqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteManager.m; sourceTree = "<group>"; };
+		02AF977A1AF35DC700380E83 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		02AF977F1AF379CF00380E83 /* Ophio1.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ophio1.sqlite; sourceTree = "<group>"; };
+		02AF97811AF3968600380E83 /* AddReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReviewViewController.h; sourceTree = "<group>"; };
+		02AF97821AF3968600380E83 /* AddReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReviewViewController.m; sourceTree = "<group>"; };
+		02DE04641AF47C8F00F9FAAB /* Ophio Restaurant Finder-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ophio Restaurant Finder-Prefix.pch"; sourceTree = "<group>"; };
+		02FD08D41AF2082300D534A2 /* Ophio Restaurant Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ophio Restaurant Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FD08D81AF2082300D534A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02FD08D91AF2082300D534A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02FD08DB1AF2082300D534A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02FD08DC1AF2082300D534A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02FD08DE1AF2082300D534A2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		02FD08DF1AF2082300D534A2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		02FD08E41AF2082300D534A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02FD08ED1AF2082300D534A2 /* Ophio Restaurant FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ophio Restaurant FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FD08F21AF2082300D534A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02FD08F31AF2082300D534A2 /* Ophio_Restaurant_FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ophio_Restaurant_FinderTests.m; sourceTree = "<group>"; };
+		02FD08FD1AF20B5400D534A2 /* CurrentLocationFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentLocationFinder.h; sourceTree = "<group>"; };
+		02FD08FE1AF20B5400D534A2 /* CurrentLocationFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentLocationFinder.m; sourceTree = "<group>"; };
+		02FD09001AF2135C00D534A2 /* RestaurantFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantFinder.h; sourceTree = "<group>"; };
+		02FD09011AF2135C00D534A2 /* RestaurantFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantFinder.m; sourceTree = "<group>"; };
+		02FD09031AF2164A00D534A2 /* RestaurantDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailsModel.h; sourceTree = "<group>"; };
+		02FD09041AF2164A00D534A2 /* RestaurantDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailsModel.m; sourceTree = "<group>"; };
+		02FD09061AF220F400D534A2 /* PSBlinkingMultiColoredLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSBlinkingMultiColoredLabel.h; sourceTree = "<group>"; };
+		02FD09071AF220F400D534A2 /* PSBlinkingMultiColoredLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSBlinkingMultiColoredLabel.m; sourceTree = "<group>"; };
+		02FD09091AF23B6F00D534A2 /* RestaurantDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailsViewController.h; sourceTree = "<group>"; };
+		02FD090A1AF23B6F00D534A2 /* RestaurantDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02FD08D11AF2082300D534A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AF977B1AF35DC700380E83 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FD08EA1AF2082300D534A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026182DC1AF40E34008CC39C /* Finder Methods */ = {
+			isa = PBXGroup;
+			children = (
+				026182DD1AF40E5F008CC39C /* Location Finder */,
+				026182DE1AF40E6B008CC39C /* Restaurant Finder */,
+			);
+			name = "Finder Methods";
+			sourceTree = "<group>";
+		};
+		026182DD1AF40E5F008CC39C /* Location Finder */ = {
+			isa = PBXGroup;
+			children = (
+				02FD08FD1AF20B5400D534A2 /* CurrentLocationFinder.h */,
+				02FD08FE1AF20B5400D534A2 /* CurrentLocationFinder.m */,
+			);
+			name = "Location Finder";
+			sourceTree = "<group>";
+		};
+		026182DE1AF40E6B008CC39C /* Restaurant Finder */ = {
+			isa = PBXGroup;
+			children = (
+				02FD09001AF2135C00D534A2 /* RestaurantFinder.h */,
+				02FD09011AF2135C00D534A2 /* RestaurantFinder.m */,
+			);
+			name = "Restaurant Finder";
+			sourceTree = "<group>";
+		};
+		026182DF1AF40E86008CC39C /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				026182E21AF40FE2008CC39C /* Sqlite Manager */,
+				026182E01AF40E93008CC39C /* Restaurant Details */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		026182E01AF40E93008CC39C /* Restaurant Details */ = {
+			isa = PBXGroup;
+			children = (
+				02FD09031AF2164A00D534A2 /* RestaurantDetailsModel.h */,
+				02FD09041AF2164A00D534A2 /* RestaurantDetailsModel.m */,
+			);
+			name = "Restaurant Details";
+			sourceTree = "<group>";
+		};
+		026182E11AF40F1E008CC39C /* Blinking Label */ = {
+			isa = PBXGroup;
+			children = (
+				02FD09061AF220F400D534A2 /* PSBlinkingMultiColoredLabel.h */,
+				02FD09071AF220F400D534A2 /* PSBlinkingMultiColoredLabel.m */,
+			);
+			name = "Blinking Label";
+			sourceTree = "<group>";
+		};
+		026182E21AF40FE2008CC39C /* Sqlite Manager */ = {
+			isa = PBXGroup;
+			children = (
+				02AF97771AF35D6400380E83 /* SqliteManager.h */,
+				02AF97781AF35D6500380E83 /* SqliteManager.m */,
+			);
+			name = "Sqlite Manager";
+			sourceTree = "<group>";
+		};
+		026182E31AF41001008CC39C /* Cornered Button */ = {
+			isa = PBXGroup;
+			children = (
+				02A42E361AF3DB0A001B227E /* PSCorneredButton.h */,
+				02A42E371AF3DB0A001B227E /* PSCorneredButton.m */,
+			);
+			name = "Cornered Button";
+			sourceTree = "<group>";
+		};
+		026182E41AF410A9008CC39C /* Custom Sub Classes */ = {
+			isa = PBXGroup;
+			children = (
+				026182E11AF40F1E008CC39C /* Blinking Label */,
+				026182E31AF41001008CC39C /* Cornered Button */,
+			);
+			name = "Custom Sub Classes";
+			sourceTree = "<group>";
+		};
+		026182E51AF410CC008CC39C /* First View */ = {
+			isa = PBXGroup;
+			children = (
+				02FD08DE1AF2082300D534A2 /* FirstViewController.h */,
+				02FD08DF1AF2082300D534A2 /* FirstViewController.m */,
+			);
+			name = "First View";
+			sourceTree = "<group>";
+		};
+		026182E61AF410EF008CC39C /* Detailed View */ = {
+			isa = PBXGroup;
+			children = (
+				02FD09091AF23B6F00D534A2 /* RestaurantDetailsViewController.h */,
+				02FD090A1AF23B6F00D534A2 /* RestaurantDetailsViewController.m */,
+			);
+			name = "Detailed View";
+			sourceTree = "<group>";
+		};
+		026182E71AF410FA008CC39C /* Complete List View */ = {
+			isa = PBXGroup;
+			children = (
+				02AF97711AF33C7E00380E83 /* AllRestaurantsViewController.h */,
+				02AF97721AF33C7E00380E83 /* AllRestaurantsViewController.m */,
+			);
+			name = "Complete List View";
+			sourceTree = "<group>";
+		};
+		026182E81AF41109008CC39C /* Assist View */ = {
+			isa = PBXGroup;
+			children = (
+				02AF97741AF33F4C00380E83 /* AssistViewController.h */,
+				02AF97751AF33F4C00380E83 /* AssistViewController.m */,
+			);
+			name = "Assist View";
+			sourceTree = "<group>";
+		};
+		026182E91AF41116008CC39C /* Create ReView */ = {
+			isa = PBXGroup;
+			children = (
+				02AF97811AF3968600380E83 /* AddReviewViewController.h */,
+				02AF97821AF3968600380E83 /* AddReviewViewController.m */,
+			);
+			name = "Create ReView";
+			sourceTree = "<group>";
+		};
+		026182EA1AF41142008CC39C /* Support Staff */ = {
+			isa = PBXGroup;
+			children = (
+				02AF977C1AF378DF00380E83 /* Database */,
+				026182DC1AF40E34008CC39C /* Finder Methods */,
+				026182DF1AF40E86008CC39C /* Data Models */,
+				026182E41AF410A9008CC39C /* Custom Sub Classes */,
+			);
+			name = "Support Staff";
+			sourceTree = "<group>";
+		};
+		02AF977C1AF378DF00380E83 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				02AF977F1AF379CF00380E83 /* Ophio1.sqlite */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		02FD08CB1AF2082300D534A2 = {
+			isa = PBXGroup;
+			children = (
+				02AF977A1AF35DC700380E83 /* libsqlite3.0.dylib */,
+				02FD08D61AF2082300D534A2 /* Ophio Restaurant Finder */,
+				02FD08F01AF2082300D534A2 /* Ophio Restaurant FinderTests */,
+				02FD08D51AF2082300D534A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02FD08D51AF2082300D534A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02FD08D41AF2082300D534A2 /* Ophio Restaurant Finder.app */,
+				02FD08ED1AF2082300D534A2 /* Ophio Restaurant FinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02FD08D61AF2082300D534A2 /* Ophio Restaurant Finder */ = {
+			isa = PBXGroup;
+			children = (
+				02FD08DB1AF2082300D534A2 /* AppDelegate.h */,
+				02FD08DC1AF2082300D534A2 /* AppDelegate.m */,
+				026182E51AF410CC008CC39C /* First View */,
+				026182E61AF410EF008CC39C /* Detailed View */,
+				026182E71AF410FA008CC39C /* Complete List View */,
+				026182E81AF41109008CC39C /* Assist View */,
+				026182E91AF41116008CC39C /* Create ReView */,
+				026182EA1AF41142008CC39C /* Support Staff */,
+				02FD08E41AF2082300D534A2 /* Images.xcassets */,
+				02FD08D71AF2082300D534A2 /* Supporting Files */,
+			);
+			path = "Ophio Restaurant Finder";
+			sourceTree = "<group>";
+		};
+		02FD08D71AF2082300D534A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02DE04641AF47C8F00F9FAAB /* Ophio Restaurant Finder-Prefix.pch */,
+				02FD08D81AF2082300D534A2 /* Info.plist */,
+				02FD08D91AF2082300D534A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02FD08F01AF2082300D534A2 /* Ophio Restaurant FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				02FD08F31AF2082300D534A2 /* Ophio_Restaurant_FinderTests.m */,
+				02FD08F11AF2082300D534A2 /* Supporting Files */,
+			);
+			path = "Ophio Restaurant FinderTests";
+			sourceTree = "<group>";
+		};
+		02FD08F11AF2082300D534A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02FD08F21AF2082300D534A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02FD08D31AF2082300D534A2 /* Ophio Restaurant Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FD08F71AF2082300D534A2 /* Build configuration list for PBXNativeTarget "Ophio Restaurant Finder" */;
+			buildPhases = (
+				02FD08D01AF2082300D534A2 /* Sources */,
+				02FD08D11AF2082300D534A2 /* Frameworks */,
+				02FD08D21AF2082300D534A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ophio Restaurant Finder";
+			productName = "Ophio Restaurant Finder";
+			productReference = 02FD08D41AF2082300D534A2 /* Ophio Restaurant Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02FD08EC1AF2082300D534A2 /* Ophio Restaurant FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FD08FA1AF2082300D534A2 /* Build configuration list for PBXNativeTarget "Ophio Restaurant FinderTests" */;
+			buildPhases = (
+				02FD08E91AF2082300D534A2 /* Sources */,
+				02FD08EA1AF2082300D534A2 /* Frameworks */,
+				02FD08EB1AF2082300D534A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02FD08EF1AF2082300D534A2 /* PBXTargetDependency */,
+			);
+			name = "Ophio Restaurant FinderTests";
+			productName = "Ophio Restaurant FinderTests";
+			productReference = 02FD08ED1AF2082300D534A2 /* Ophio Restaurant FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02FD08CC1AF2082300D534A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Pranav Sah";
+				TargetAttributes = {
+					02FD08D31AF2082300D534A2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					02FD08EC1AF2082300D534A2 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 02FD08D31AF2082300D534A2;
+					};
+				};
+			};
+			buildConfigurationList = 02FD08CF1AF2082300D534A2 /* Build configuration list for PBXProject "Ophio Restaurant Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02FD08CB1AF2082300D534A2;
+			productRefGroup = 02FD08D51AF2082300D534A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02FD08D31AF2082300D534A2 /* Ophio Restaurant Finder */,
+				02FD08EC1AF2082300D534A2 /* Ophio Restaurant FinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02FD08D21AF2082300D534A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FD08E51AF2082300D534A2 /* Images.xcassets in Resources */,
+				02AF97801AF379CF00380E83 /* Ophio1.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FD08EB1AF2082300D534A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02FD08D01AF2082300D534A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FD08E01AF2082300D534A2 /* FirstViewController.m in Sources */,
+				02FD08DD1AF2082300D534A2 /* AppDelegate.m in Sources */,
+				02AF97831AF3968600380E83 /* AddReviewViewController.m in Sources */,
+				02FD08FF1AF20B5400D534A2 /* CurrentLocationFinder.m in Sources */,
+				02FD08DA1AF2082300D534A2 /* main.m in Sources */,
+				02FD09051AF2164A00D534A2 /* RestaurantDetailsModel.m in Sources */,
+				02FD09081AF220F400D534A2 /* PSBlinkingMultiColoredLabel.m in Sources */,
+				02AF97761AF33F4C00380E83 /* AssistViewController.m in Sources */,
+				02FD090B1AF23B6F00D534A2 /* RestaurantDetailsViewController.m in Sources */,
+				02AF97791AF35D6500380E83 /* SqliteManager.m in Sources */,
+				02AF97731AF33C7E00380E83 /* AllRestaurantsViewController.m in Sources */,
+				02FD09021AF2135C00D534A2 /* RestaurantFinder.m in Sources */,
+				02A42E381AF3DB0A001B227E /* PSCorneredButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FD08E91AF2082300D534A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FD08F41AF2082300D534A2 /* Ophio_Restaurant_FinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02FD08EF1AF2082300D534A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02FD08D31AF2082300D534A2 /* Ophio Restaurant Finder */;
+			targetProxy = 02FD08EE1AF2082300D534A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02FD08F51AF2082300D534A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ophio Restaurant Finder/Ophio Restaurant Finder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02FD08F61AF2082300D534A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ophio Restaurant Finder/Ophio Restaurant Finder-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02FD08F81AF2082300D534A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = "Ophio Restaurant Finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02FD08F91AF2082300D534A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = "Ophio Restaurant Finder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02FD08FB1AF2082300D534A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ophio Restaurant FinderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ophio Restaurant Finder.app/Ophio Restaurant Finder";
+			};
+			name = Debug;
+		};
+		02FD08FC1AF2082300D534A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Ophio Restaurant FinderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ophio Restaurant Finder.app/Ophio Restaurant Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02FD08CF1AF2082300D534A2 /* Build configuration list for PBXProject "Ophio Restaurant Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FD08F51AF2082300D534A2 /* Debug */,
+				02FD08F61AF2082300D534A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FD08F71AF2082300D534A2 /* Build configuration list for PBXNativeTarget "Ophio Restaurant Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FD08F81AF2082300D534A2 /* Debug */,
+				02FD08F91AF2082300D534A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FD08FA1AF2082300D534A2 /* Build configuration list for PBXNativeTarget "Ophio Restaurant FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FD08FB1AF2082300D534A2 /* Debug */,
+				02FD08FC1AF2082300D534A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02FD08CC1AF2082300D534A2 /* Project object */;
+}
